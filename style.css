@@ -1,0 +1,90 @@
+/*selectro de tipo etiqueta*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+
+}
+
+
+.padre {
+    display: flex;
+    justify-content: center;
+}
+
+.hijitos{
+    align-items: center;
+    justify-content: center;
+}
+
+body { 
+    background-color: rgb(106, 236, 193);
+    
+}
+
+h1  { 
+    color: red;
+}
+
+
+section { 
+    border: 0.1cm solid black;
+   background-color: rgb(245, 92, 209);
+    outline: 1cm;
+}
+
+aside { 
+    border: 0.05cm solid black;
+    background-color: rgb(194, 73, 210);
+    outline: 10cm;
+}
+.Education { 
+    color: rgb(4, 126, 15);
+}
+
+.flex-cont { 
+    display: flex;
+    align-content: center;
+    align-self: center;
+    background-position-y: center;
+    background-position-x: center;
+    height: 100%;
+}
+
+.flex-item  {
+    background-color: rgb(103, 140, 241);
+    color: #050505;
+    margin: 5px;
+    justify-content: center;
+    background-position-y: center;
+    background-position-x: center;
+    width: 50%;
+    height: 100%;
+   
+    
+
+
+}
+
+.flexi {
+    display: flex;
+}
+.photo {
+    align-self: flex-start;
+}
+.int {
+    align-content: center;
+}
+
+
+section{
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
